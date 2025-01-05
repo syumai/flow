@@ -20,14 +20,12 @@ const classNamesToGenerate = [
   'bg-surface3',
   'bg-surface4',
   'bg-surface5',
-  `bg-surface100`, // beige
   'hover:bg-surface',
   'hover:bg-surface1',
   'hover:bg-surface2',
   'hover:bg-surface3',
   'hover:bg-surface4',
   'hover:bg-surface5',
-  `hover:bg-surface100`, // beige
 ]
 
 function camelToSnake(s: string) {

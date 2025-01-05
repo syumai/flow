@@ -96,10 +96,4 @@ Object.entries(surfaceMap).forEach(([level, opacity]) => {
   }
 })
 
-// beige theme
-utilities['.bg-surface100'] = {
-  backgroundImage: makeLinearGradient('#ede8d0'),
-  backgroundColor: '#ede8d0',
-}
-
 exports.utilities = utilities

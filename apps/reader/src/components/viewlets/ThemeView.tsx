@@ -46,14 +46,6 @@ export const ThemeView: React.FC<PaneViewProps> = (props) => {
                   }}
                 />
               ))}
-            {/* beige theme */}
-            <Background
-              className="bg-surface100"
-              onClick={() => {
-                setScheme('light')
-                setBackground(100)
-              }}
-            />
             <Background
               className="bg-black"
               onClick={() => {
